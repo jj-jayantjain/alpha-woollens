@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us — Alpha Woollens (U) Ltd</title>
+<meta name="description" content="Get in touch with Alpha Woollens (U) Ltd for bulk uniform orders, custom branding, and quotes." />
+<link rel="icon" href="assets/images/brand/logo.png" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/home.css" />
+<link rel="stylesheet" href="css/inner.css" />
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="selvedge" aria-hidden="true"></div>
+
+<header class="site-header" id="site-header"></header>
+
+<main id="main-content">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow" style="color:#e98276">Contact Us</span>
+      <h1 class="display-lg" style="color:white">Let's Outfit Your Team</h1>
+      <div class="breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Contact</span></div>
+    </div>
+  </section>
+
+  <section class="section-pad bg-white">
+    <div class="container contact-layout">
+
+      <!-- ============ FORM ============ -->
+      <div data-reveal>
+        <div class="contact-form-card">
+          <h2 class="display-md mb-24">Request a Quote</h2>
+          <div class="form-success" id="form-success">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Thanks — your inquiry has been recorded. We'll reach out within one business day.</span>
+          </div>
+          <form id="contact-form" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required autocomplete="name" />
+              </div>
+              <div class="field">
+                <label for="company">Company / Institution</label>
+                <input type="text" id="company" name="company" autocomplete="organization" />
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email" />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="product-interest">Product Interest</label>
+              <select id="product-interest" name="productInterest">
+                <option value="">Select a category&hellip;</option>
+                <option>Security Apparel</option>
+                <option>School Uniforms</option>
+                <option>Protective Workwear</option>
+                <option>Corporate Wear</option>
+                <option>Knitwear & Headwear</option>
+                <option>Custom Branding</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Tell us about quantities, sector, and timeline..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- ============ QUICK CONTACT + LOCATIONS ============ -->
+      <div data-reveal data-reveal-delay="1">
+        <div class="contact-quick">
+          <a class="contact-quick-item" id="quick-call" href="#">
+            <span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8C8 13.6 10.4 16 13.2 17.4l2.1-2.1c.3-.3.7-.4 1-.2 1.1.5 2.3.8 3.6.9.6 0 1.1.5 1.1 1.1V20.8c0 .6-.5 1.1-1.1 1.1C9.9 21.9 2.1 14.1 2.1 4.2 2.1 3.6 2.6 3.1 3.2 3.1H6.9c.6 0 1.1.5 1.1 1.1.1 1.3.4 2.5.9 3.6.2.3.1.7-.2 1l-2.1 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+            <span><strong id="quick-call-num">&nbsp;</strong><span>Call us directly</span></span>
+          </a>
+          <a class="contact-quick-item" id="quick-email" href="#">
+            <span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.6"/></svg></span>
+            <span><strong id="quick-email-addr">&nbsp;</strong><span>Email our team</span></span>
+          </a>
+          <a class="contact-quick-item" id="quick-whatsapp" href="#" target="_blank" rel="noopener">
+            <span class="icon-circle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 00-7.6 13.8L3 21l4.4-1.3A9 9 0 1012 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+            <span><strong>WhatsApp</strong><span>Quick chat for fast quotes</span></span>
+          </a>
+        </div>
+
+        <h2 class="display-md mb-16" style="font-size:1.3rem">Our Offices</h2>
+        <div class="location-tabs" id="location-tabs"></div>
+        <div id="location-detail"></div>
+        <div class="map-frame" id="map-frame"></div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="js/site-config.js"></script>
+<script src="js/products-data.js"></script>
+<script src="js/site.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
