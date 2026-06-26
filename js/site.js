@@ -30,7 +30,7 @@
     mount.innerHTML = `
       <div class="container header-inner">
         <a href="index.html" class="brand" aria-label="${SITE.companyName} home">
-          <img src="assets/images/brand/logo.png" alt="${SITE.companyName} logo" width="42" height="42" />
+          <img src="assets/images/brand/logo_cropped_under100kb.png" alt="${SITE.companyName} logo" width="42" height="42" />
           <span class="brand-text">${SITE.shortName.toUpperCase()}<small>${SITE.tagline}</small></span>
         </a>
         <nav class="main-nav" id="main-nav" aria-label="Primary">
@@ -75,7 +75,7 @@
         <div class="footer-grid">
           <div class="footer-col">
             <div class="footer-logo">
-              <img src="assets/images/brand/logo.png" alt="" width="36" height="36" />
+              <img src="assets/images/brand/logo_cropped_under100kb.png" alt="${SITE.companyName} logo" width="36" height="36" />
               <span>${SITE.companyName}</span>
             </div>
             <p>${SITE.tagline}. Manufacturing trusted workwear for security, education, industry and corporate sectors since ${SITE.about.established}.</p>
