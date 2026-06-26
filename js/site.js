@@ -104,7 +104,7 @@
         </div>
         <div class="footer-bottom">
           <span>&copy; ${year} ${SITE.companyName}. All rights reserved.</span>
-          <span>Template built for reuse across client sites.</span>
+          <!--<span>Template built for reuse across client sites.</span>-->
         </div>
       </div>
     `;
